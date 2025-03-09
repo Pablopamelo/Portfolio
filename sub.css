@@ -1,0 +1,284 @@
+body{
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    font-size: max(1.4vw ,22px);
+    font-family: "Frank Ruhl Libre", serif;
+    background: linear-gradient(90deg, rgb(165, 185, 206),  rgb(119, 150, 180), rgb(60, 98, 135), rgb(54, 50, 147), rgb(71, 24, 115));
+}
+
+/* About Me */
+
+#container1{
+    width: 90%;
+    margin: 100px auto;
+}
+
+#container1 #basics{
+    float: left;
+    font-size: 1em;
+    width: 75%;
+    text-align: justify;
+    line-height: 150%;
+    word-spacing: 2px;
+}
+
+#container1 #content{
+    margin: 8px;
+    background-color: rgb(218, 228, 236);
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: 0.2s all ease-in-out;
+}
+
+#container1 p{
+    margin: 20px;
+}
+
+#container1 #side{
+    float: left;
+    width: 25%;
+}
+
+#container1 #side img{
+    width: 88%;
+    margin: 15px 40px;
+    border-radius: 10px;
+}
+
+#container1 #one{
+    transition: 0.2s cubic-bezier(0.51,-0.39, 0.57, 1.59);
+}
+
+#container1 #two{
+    transition: 0.2s cubic-bezier(0.51,-0.39, 0.57, 1.59);
+}
+
+#container1 #one:hover{
+    transform: rotate(5deg);
+}
+
+#container1 #two:hover{
+    transform: rotate(-6deg);
+}
+
+/* My Education */
+
+#container2{
+    width: 90%;
+    margin: 130px auto;
+}
+
+#container2 img{
+    margin: 0 0 0 40px;
+    width: 17vw;
+    min-width: 300px;
+    display: block;
+    float: left;
+    transition: 0.2s all ease-in-out;
+}
+
+#container2 img:hover{
+    transform: scale(1.1);
+}
+
+#container2 #grad{
+    font-size: 1.1em;
+    border-radius: 20px;
+    background-color: rgb(223, 233, 241);
+    padding: 30px;
+    margin: 10px;
+    width: 67vw;
+    float: left;
+    text-align: center;
+}
+
+#container2 hr{
+    color: black;
+}
+
+/* My Skills */
+
+#container3{
+    max-height: 2800px;
+    width: 90%;
+    margin: 100px auto;
+}
+
+#container3 p{
+    margin: 30px 40px;
+    float: left;
+    display: block;
+}
+
+#container3 h2{
+    margin: 30px;
+}
+
+#container3 #content{
+    height: 100%; 
+    border-radius: 20px;
+    line-height: 140%;
+    padding: 10px 50px 10px 10px;
+    background-color: rgb(223, 233, 241);
+}
+
+#container3 img{
+    transition: 0.2s all ease-in-out;
+    min-width: 130px;
+    width: 130px;
+    margin: 0 20px 0 0;
+    display: block;
+    float: left;
+}
+
+#container3 img:hover{
+    transform: scale(1.2);
+}
+
+#container3 img:hover{
+    transform: scale(1.2);
+}
+
+#container3 #ln p, #container3 #je p{
+    margin: 10px 0 40px 20px;
+}
+
+#container3 #je div{
+    margin: 10px 0 40px 20px;
+}
+
+#container3 #ln div{
+    margin: 10px 0 40px 20px;
+}
+
+#container3 #wd div{
+    margin: 10px 0 40px 20px;
+}
+
+
+/* My Interests */
+
+#container4{
+    width: 90%;
+    margin: 100px auto;
+}
+
+#container4 #ints{
+    font-size: 1.1em;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgb(223, 233, 241);
+    width: max-content;
+    line-height: 150%;
+}
+
+#container4 p{
+    margin: 20px 20px;
+    display: block;
+}
+
+/* My Projects */
+
+#container5{
+    width: 90%;
+    margin: 100px auto;
+}
+
+#container5 #exs{
+    background-color: rgb(223, 233, 241);
+    padding: 30px;
+    border-radius: 30px;
+}
+
+#container5 img{
+    width: 30%;
+    min-width: 200px;
+    margin: 0 0 30px 0;
+    display: block;
+    float: left;
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#container5 img:hover{
+    transform: scale(1.05);
+}
+
+#container5 div{
+    margin: 20px 40px;
+}
+
+#container5 span{
+    display: block;
+    margin: 20px 0;
+    font-size: 1.25em;
+    width: max-content;
+}
+
+#container5 .description{
+    width: 65%;
+    float: left;
+    line-height: 150%;
+    font-size: 1.05em;
+}
+
+/* Contact */
+
+#container6{
+    width: 90%;
+    margin: 100px auto;
+}
+
+#container6 p{
+    margin: 10px 10px;
+    display: block;
+}
+
+#container6 #info{
+    border-radius: 20px;
+    background-color: rgb(223, 233, 241);
+    padding: 10px 40px;
+    font-size: 1.2em;
+    line-height: 200%;
+    width: max-content;
+}
+
+/* All */
+
+.return{
+    float: bottom;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-style: italic;
+    transition: 0.15s all ease-in-out;
+}
+
+a:hover{
+    color: rgb(158, 247, 255);
+}
+
+hr{
+    border-top: 1px solid #555;
+}
+
+.break{
+    clear:both;
+    width: 0;
+    min-width: 0;
+    height: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
