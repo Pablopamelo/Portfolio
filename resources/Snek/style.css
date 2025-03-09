@@ -1,0 +1,130 @@
+body{
+	background-color: #405040;
+	margin: 0;
+	padding: 0;
+	font-family: lato, sans-serif;
+}
+
+#conteiner{
+	width: 60%;
+	height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	background-color: #dddfcc;
+	border-radius: 30px;
+	border: 2px solid #000000;
+}
+
+#g_title{	
+	width: 100%;
+	font-size: 160px;
+	font-weight: 800;
+	text-align: center;
+	background-color: #aadaaa;
+	letter-spacing: 5px;
+	border-bottom: 2px solid #000000;
+	border-radius: 30px;
+}
+
+#content{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 820px;
+}
+
+.board{
+	margin-left: 75px;
+	width: 656px; 
+	height: 80%; 
+	float:left;
+}
+
+.tile{
+	width: 121.1px;
+	height: 121.1px;
+	border: 1px solid #000000;
+}
+
+#controls{
+	margin-top: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 400px;
+}
+
+.mbutton{
+	text-align: center;
+	cursor: pointer; 
+	width: 31.8%;
+	height: 31.8%;
+	float: left;
+	border: 3px solid #000000;
+	background-color: #fafafa;
+}
+
+.tbbutton{
+	text-align: center;
+	cursor: pointer; 
+	background-color: #fafafa;
+	margin-left: 33.2%;
+	width: 31.8%;
+	height: 31.8%;
+	float: left;
+	border: 3px solid #000000;
+}
+
+#buttonu:hover{
+	background-color: #e5e5e5;
+}
+
+#buttonl:hover{
+	background-color: #e5e5e5;
+}
+
+#buttonr:hover{
+	background-color: #e5e5e5;
+}
+
+#buttond:hover{
+	background-color: #e5e5e5;
+}
+
+#score_box{
+	color: #da0110;
+	margin-left: 10px;
+	float:left;
+	font-size: 60px;
+	margin-top: 15px;
+}
+	
+#food_meter{
+	color: #006000;
+	margin-left: 70px;
+	float:left;
+	font-size: 60px;
+	margin-top: 15px;
+}
+
+#ending_screen{
+	font-size: 60px;
+	text-align: center;
+}
+
+#ac{
+	color: #da0110;
+}
+
+#mm{
+	color: #333333;
+}
+
+#mf{
+	color: #006000;
+}
+
+#tm{
+	color: #6666c5;
+}

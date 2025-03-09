@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: max(1.4vw ,24px);
+    font-family: "Frank Ruhl Libre", serif;
+    background: linear-gradient(90deg, rgb(185, 202, 220),  rgb(119, 150, 180), rgb(60, 98, 135), rgb(54, 50, 147), rgb(71, 24, 115));
+}
+
+#intro{
+    margin: 6vh 0 0 5.5vw; 
+    padding: 20px 20px;
+    float: left;
+}
+
+
+#skewed1{
+    background-color: #111;
+    transform: skewX(5deg);
+}
+
+#skewed2{
+    background-color: #25282f;
+    transform: skewX(-5deg);
+    margin: 0 0 130px 10px;
+}
+
+
+#intro h1{
+    color: #fff;
+    font-size: 3.3em;
+    margin: 0 0 0 2vw;
+    padding: 20px;
+    transform: skewX(-5deg);
+}
+
+#intro h2{
+    color: #fff;
+    font-size: 1.15em;
+    margin: 0 0 0 3vw;
+    padding: 15px;
+    opacity: 0.9;
+    transform: skewX(5deg);
+}
+
+main div{
+    display: block;
+    width: 16vw;
+    min-width: 225px;
+    height: 20vh;
+    min-height: 150px;
+    margin: 1.6vh 1vw;
+    text-align: center;
+    font-size: 1em;
+    float: left;
+}
+
+h3{
+    color: #111;
+    font-size: 1.1em;
+    margin: 0 0 10px 30px;
+
+}
+
+/* Navigation Tiles */
+
+.tile{
+    border-radius: 20px;
+    border: 1px solid #64798b;
+    transition: 0.15s all ease-in-out;
+    background-color: #95b4cf;
+    opacity: 0.8;
+}
+
+.tile:hover{
+    transform: scale(1.08);
+    opacity: 1;
+    cursor: pointer;
+    color: rgb(217, 234, 253);
+}
+
+/* Line Break */
+
+.break{
+    clear:both;
+    width: 0;
+    min-width: 0;
+    height: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+main i{
+    display: block;
+    margin: 4vh 0 0 0;
+}
+
+main i span{
+    font-size: 0.4em;
+    display: block;
+    text-decoration: 0;
+}
+
+.icon-graduation-cap,
+.icon-phone,
+.icon-star,
+.icon-adult,
+.icon-cog-alt,
+.icon-briefcase{
+    font-size: 2.2em;
+}
+
+aside{
+    display: block;
+    float: left;
+    width: 600px;
+}
+
+.quote{
+    background-color: rgb(202, 218, 229);
+    width: 20vw;
+    min-width: 300px;
+    display: inline-block;
+    padding: 30px;
+    font-size: 0.85em;
+    line-height: 200%;
+    border-radius: 15px;
+    margin: 80px 0 0 150px;
+    font-style: italic;
+    transition: 0.5s all ease-in-out;
+}
+
+.quote1{
+    background-color: rgb(202, 218, 229);
+    width: 20vw;
+    min-width: 300px;
+    display: inline-block;
+    padding: 30px;
+    font-size: 0.85em;
+    line-height: 200%;
+    border-radius: 15px;
+    margin: 0 0 0 150px;
+    font-style: italic;
+    transition: 0.5s all ease-in-out;   
+}
+
+.quote:hover{
+    background-color: #181818;
+    color:#eee;
+}
+
+.quote1:hover{
+    background-color: #181818;
+    color:#eee;
+}
+
+#quotes{
+    margin: 7vw 0 40px 150px;
+    color:#eee;
+    font-size: 1.2em;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+

@@ -1,0 +1,129 @@
+body{
+	background-color: #333333; 
+	color: #eeeeee;
+	font-family: 'lato', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#conteiner1{
+	color: #000000;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5%;
+	width: 1000px;
+	height: 800px;
+}
+
+#conteiner2{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:13%;
+	width: 1250px;
+	height: 600px;
+}
+
+#tytul{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 120px;
+	font-weight: 800;
+	width: 100%;
+}
+
+#opcje{
+	margin-top: 60px;
+	font-size: 110px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 70%;
+}
+
+.mp_sp{
+	font-size: 70px;
+	background-color: #eeeeee;
+	border-radius: 10px;
+	margin-top : 40px;
+	margin-left: 8%;
+	width: 85%;
+	height: 50%;
+	border: 3px solid #eeeeee;
+}
+
+.sc{
+	margin-top: 15%;
+	margin-left: 25%;
+	background-color: #eeeeee;
+	width: 50%;
+	border-radius: 10px;
+	border: 3px solid #eeeeee;
+}
+
+#kratka{
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	display:grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 33% 33% 33%;
+	width: 600px;
+	height: 606px;
+}
+
+#console{
+	float:left;
+	height: 580px;
+	min-width: 580px;
+	padding: 10px;
+}
+
+.tile{
+	border: 3px solid #eeeeee; 
+}
+
+.image{
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+	text-align: center;
+}
+
+.tile:hover{
+	background-color: #464446;
+}
+
+#turn{
+	font-weight: 900;
+	font-size: 60px;
+	text-align: justify;
+	text-align: center;
+	margin-top: 40px;
+	padding: 5px;
+	letter-spacing: 2px;
+	margin-left: 100px;
+}
+
+#turn_text{
+	font-weight: 600;
+	float: left;
+	font-size: 56px;
+}
+
+#turn_znak{
+	float:left;
+	margin-left: 20px;
+}
+
+span{
+	cursor:pointer;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+}

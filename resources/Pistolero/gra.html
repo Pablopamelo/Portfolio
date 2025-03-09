@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang = "pl">
+<head>
+	<meta charset = "utf-8">
+	<title> Pistolero </title>
+	<link href = "gra.css" rel = "stylesheet" type = "text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id = "board">
+		<header>
+			<div id = "title">
+				<h1>Pistolero</h1>
+			</div>
+		</header>
+		<div id = "overlay">
+			<div style = "opacity: 0;" id = "G_O_screen"> Game Over </div>
+			<div id = "menu">
+				<div class = "button" id = "button_easy">Easy</div>
+				<div class = "button" id = "button_medium">Medium</div>
+				<div class = "button" id = "button_hard">Hard</div>
+			</div>
+			<div style = "opacity: 0;" id = "game">
+					<main>
+						<article>
+							<div style = "left: 1000px; top: 42px;" id = "clock"></div>
+							
+							<div  id = "bandito" class = "bandito"></div>
+							<div class = "oslona1"></div>
+							
+							<div style = "left: 1500px; top: 650px;" class = "bandito"></div>
+							<div style = "left: 1700px; top: 650px;" id = "bandito3" class = "bandito"></div>
+							<div style = "left: 1420px; top: 490px;"class = "oslona2-3"></div>
+							
+							<div style = "left: 960px; top: 400px;"class = "bandito"></div>
+							<div style = "left: 905px; top: 350px;"class = "oslona4"></div>
+							
+							<div style = "left: 500px; top: 635px;"class = "bandito"></div>
+							<div style = "left: 450px; top: 500px;"class = "oslona5"></div>
+							
+							<div style = "left: 1550px; top: 130px;" id = "bandito6" class = "bandito"></div>
+							<div style = "left: 1500px; top: 120px;"class = "oslona6"></div>
+							<div style = "clear:both;"></div>
+						</article>
+					</main>
+			</div>
+		</div>
+		
+		<aside>
+			<div id = "stats">
+				<section>	
+					<div id = "ammo_display"></div>
+				</section>
+				<section>
+					<div id = "life"></div>
+				</section>
+				<section>
+					<div id = "points_display"></div>
+				</section>
+				<section>
+					<div id = "points_needed_display"></div>
+				</section>
+			</div>
+		</aside>
+	</div>
+	<script src = "jquery.js"></script>
+	<script src = "skrypt.js"></script>
+	</body>
+</html>
